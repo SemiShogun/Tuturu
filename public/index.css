@@ -1,0 +1,117 @@
+body {
+    background-image: url('/images/mayuriii.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: YuGothic, 'Yu Gothic', '游ゴシック', '游ゴシック体', 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ' , Meiryo , Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+button {
+    font-size: 50px;
+    background-color: #5b8df8;
+    color: #ee75d4;
+    display: inline-block;
+    line-height: 1;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6495ff;
+}
+
+span, a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: #fff;
+}
+
+#container {
+    width: 640px;
+    height: 360px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -320px;
+    margin-top: -180px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+#counter {
+    font-size: 70px;
+    text-align: center;
+    line-height: 1;
+    color: rgb(111, 196, 245);
+    font-family: 'Nunito', sans-serif;
+    margin:5 auto;
+    text-shadow: #fff 1px 1px 0px, #fff -1px 1px 0px, #fff 1px -1px 0px, #fff -1px -1px 0px;
+}
+
+#ver {
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+#ver .about_link {
+    color: #fff;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+#about {
+    background-color: rgba(255,255,255,0.7);
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#about h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #f74dd2;
+}
+
+#about_box {
+    margin-top: 30px;
+}
+
+#about_box h2 {
+    margin-top: 30px;
+    color: #5b8df8;
+    font-weight: bold;
+}
+
+#about_box p {
+    line-height: 1.5;
+    padding-left: 1.6em;
+    color: #333;
+}
+
+#return_link {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#return_link a {
+    font-size: 20px;
+    color: #8a8000;
+    text-decoration: underline;
+}

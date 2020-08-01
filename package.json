@@ -1,0 +1,26 @@
+{
+  "name": "tuturu2",
+  "version": "1.0.0",
+  "description": "Tuturuuuuu",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mayuri",
+    "Shiina",
+    "Realtime"
+  ],
+  "author": "SemiShogun",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
