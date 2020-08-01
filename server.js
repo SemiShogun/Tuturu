@@ -1,5 +1,4 @@
 // All the necessary imports. yadayada you get it
-require('dotenv').config();
 const express = require('express');
 
 const app = express();
